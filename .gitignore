@@ -7,7 +7,7 @@ server/pnpm-lock.yaml
 client/dist/
 server/dist/
 
-clent/.env
+client/.env
 server/.env
 
 client/config.json
