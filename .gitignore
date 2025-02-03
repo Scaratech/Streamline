@@ -1,0 +1,13 @@
+client/node_modules/
+server/node_modules/
+
+client/pnpm-lock.yaml
+server/pnpm-lock.yaml
+
+client/dist/
+server/dist/
+
+clent/.env
+server/.env
+
+client/config.json
