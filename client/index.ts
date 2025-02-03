@@ -1,12 +1,12 @@
 import WebSocket from 'ws';
 
 import { readFileSync } from 'node:fs';
-import { config } from 'dotenv';
+import { config as configEnv} from 'dotenv';
 
 import { createSocket } from 'node:dgram';
 import { createServer, createConnection } from 'net';
 
-config();
+configEnv();
 
 const HOST = process.env.HOST;
 const AUTH = process.env.AUTH;
